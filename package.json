@@ -1,0 +1,30 @@
+{
+  "name": "battleship",
+  "version": "0.0.1",
+  "description": "heads-up play battleship",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joknife/bs.n.git"
+  },
+  "keywords": [
+    "game",
+    "battleship"
+  ],
+  "author": "joknife",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joknife/bs.n/issues"
+  },
+  "homepage": "https://github.com/joknife/bs.n#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.4",
+    "nconf": "^0.8.4",
+    "pug": "^2.0.0-beta11"
+  }
+}

@@ -1,0 +1,9 @@
+
+content
+	div.login
+		h3 Login
+		p#hint
+		form(method='post' action='/login')
+			input(type='text' name='username' placeholder='username' required='required')
+			input(type='password' name='password' placeholder='password' required='required')
+			input.btn(type='submit' value='Войти')
